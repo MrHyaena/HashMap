@@ -17,12 +17,5 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
   }
-  "scripts": {
-    "one": "git branch gh-pages",
-    "two": "git checkout gh-pages && git merge main --no-edit",
-    "three": "npx webpack",
-    "four": "git add dist -f && git commit -m 'Deployment commit'",
-    "five": "git subtree push --prefix dist origin gh-pages",
-    "six": "git checkout main"
-  },
+  
 }
